@@ -73,9 +73,11 @@
   ],
   "users": [
     {
+      "id" : "1",
       "username": "alice23",
       "about": "Hi, I'm Alice! I love coding and exploring new technologies.",
       "contact": "alice@example.com",
+      "image" : "https://img.freepik.com/free-photo/3d-illustration-cute-cartoon-girl-blue-jacket-glasses_1142-41044.jpg?t=st=1709632988~exp=1709636588~hmac=682f47d7771b2c4d97ef2d45ddb70c45242435bd31abe3544e20bf9b42315f15&w=740",
       "squad": "Techies",
       "events": {
         "created": ["Tech Talk", "Coding Workshop"],
@@ -83,9 +85,11 @@
       }
     },
     {
+      "id" : "2",
       "username": "john_doe",
       "about": "Hey there! I'm John. I'm passionate about fitness and leading an active lifestyle.",
       "contact": "john.doe@example.com",
+      "image" : "https://img.freepik.com/free-photo/portrait-boy-glasses-dark-background-3d-rendering_1142-41844.jpg?t=st=1709633216~exp=1709636816~hmac=b91f52e461de20a3f87329c2ea948fe58d0efe94c9f16d4d573b6495b514a895&w=740",
       "squad": "FitFam",
       "events": {
         "created": ["Fitness Challenge", "Yoga Session"],
@@ -93,9 +97,11 @@
       }
     },
     {
+      "id" : "3",
       "username": "samantha_brown",
       "about": "Hello, I'm Samantha. I'm an art enthusiast and love visiting galleries.",
       "contact": "samantha.b@example.com",
+      "image" : "https://img.freepik.com/free-photo/3d-illustration-cartoon-female-tourist-with-camera_1142-32317.jpg?t=st=1709633083~exp=1709636683~hmac=d31cd26b118dbb062eb52e6331d695066d7ed78475c48e3cab81f1e648503c89&w=740",
       "squad": "Art Lovers",
       "events": {
         "created": ["Art Exhibition", "Painting Workshop"],
@@ -103,9 +109,11 @@
       }
     },
     {
+      "id" : "4",
       "username": "emma_smith",
       "about": "Hi, I'm Emma. I enjoy reading, especially science fiction novels.",
       "contact": "emma.smith@example.com",
+      "image" : "https://img.freepik.com/free-photo/3d-illustration-teenage-girl-with-hoodie_1142-32303.jpg?t=st=1709633127~exp=1709636727~hmac=2e7374ba5a53040696804e919676989bac2eaa95780e7180f09ca06fbed3fb0c&w=740",
       "squad": "Bookworms",
       "events": {
         "created": ["Book Club Meeting", "Literary Discussion"],
@@ -113,9 +121,11 @@
       }
     },
     {
+      "id" : "5",
       "username": "max_123",
       "about": "Hey, I'm Max. I'm a foodie and always up for trying new cuisines.",
       "contact": "max123@example.com",
+      "image" : "https://img.freepik.com/free-photo/3d-illustration-cute-clown-with-curly-hair_1142-32471.jpg?t=st=1709633159~exp=1709636759~hmac=a4d8244fe65ca8a1b5c2dcb29d43c97288cc53a6885e558016d2a76e5b400540&w=740",
       "squad": "Foodies",
       "events": {
         "created": ["Food Festival", "Cooking Class"],
@@ -123,4 +133,5 @@
       }
     }
   ]
+
 }
