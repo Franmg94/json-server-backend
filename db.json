@@ -1,33 +1,126 @@
 {
-  "projects": [
+  "events": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "title": "Birthday Bash",
+      "description": "Come celebrate my birthday with friends and family!",
+      "date": "2024-03-15",
+      "time": "18:00",
+      "location": "123 Main Street, Cityville",
+      "creator": "Alice Smith",
+      "image": "https://media.istockphoto.com/id/1430286557/de/foto/kreatives-team-laptop-und-zusammenarbeit-beim-sprechen-helfen-und-brainstorming-von-ideen-im.jpg?s=2048x2048&w=is&k=20&c=Gtz34hkkbjyXz5eyf7CK2kREySdyQR9usnPlJUCuSrs=",
+      "comments": [],
+      "category": "Celebration",
+      "participants": ["Bob", "Charlie", "David"],
+      "squad": "Party Animals"
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "title": "Tech Talk",
+      "description": "Discuss the latest trends in technology.",
+      "date": "2024-04-10",
+      "time": "15:00",
+      "location": "Tech Hub, Silicon Valley",
+      "creator": "John Doe",
+      "image": "https://example.com/tech_talk_image.jpg",
+      "comments": [],
+      "category": "Education",
+      "participants": ["Emily", "Frank", "Grace"],
+      "squad": "Tech Enthusiasts"
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "title": "Fitness Challenge",
+      "description": "Join us for a weekend fitness challenge!",
+      "date": "2024-05-20",
+      "time": "09:00",
+      "location": "City Park",
+      "creator": "Samantha Brown",
+      "image": "https://example.com/fitness_challenge_image.jpg",
+      "comments": [],
+      "category": "Health & Wellness",
+      "participants": ["Hannah", "Isaac", "Jack"],
+      "squad": "Fitness Freaks"
+    },
+    {
+      "id": 4,
+      "title": "Art Exhibition",
+      "description": "Explore mesmerizing artworks by local artists.",
+      "date": "2024-06-08",
+      "time": "12:00",
+      "location": "Art Gallery, Downtown",
+      "creator": "Eleanor Williams",
+      "image": "https://example.com/art_exhibition_image.jpg",
+      "comments": [],
+      "category": "Arts & Culture",
+      "participants": ["Liam", "Mia", "Nathan"],
+      "squad": "Art Aficionados"
+    },
+    {
+      "id": 5,
+      "title": "Book Club Meeting",
+      "description": "Discuss our latest read and select the next one!",
+      "date": "2024-07-05",
+      "time": "19:30",
+      "location": "Local Café",
+      "creator": "Olivia Johnson",
+      "image": "https://example.com/book_club_image.jpg",
+      "comments": [],
+      "category": "Literature",
+      "participants": ["Sophia", "Thomas", "Victoria"],
+      "squad": "Bookworms"
+    }
+  ],
+  "users": [
+    {
+      "username": "alice23",
+      "about": "Hi, I'm Alice! I love coding and exploring new technologies.",
+      "contact": "alice@example.com",
+      "squad": "Techies",
+      "events": {
+        "created": ["Tech Talk", "Coding Workshop"],
+        "attending": ["Fitness Challenge", "Art Exhibition"]
+      }
+    },
+    {
+      "username": "john_doe",
+      "about": "Hey there! I'm John. I'm passionate about fitness and leading an active lifestyle.",
+      "contact": "john.doe@example.com",
+      "squad": "FitFam",
+      "events": {
+        "created": ["Fitness Challenge", "Yoga Session"],
+        "attending": ["Birthday Bash", "Tech Talk"]
+      }
+    },
+    {
+      "username": "samantha_brown",
+      "about": "Hello, I'm Samantha. I'm an art enthusiast and love visiting galleries.",
+      "contact": "samantha.b@example.com",
+      "squad": "Art Lovers",
+      "events": {
+        "created": ["Art Exhibition", "Painting Workshop"],
+        "attending": ["Fitness Challenge", "Book Club Meeting"]
+      }
+    },
+    {
+      "username": "emma_smith",
+      "about": "Hi, I'm Emma. I enjoy reading, especially science fiction novels.",
+      "contact": "emma.smith@example.com",
+      "squad": "Bookworms",
+      "events": {
+        "created": ["Book Club Meeting", "Literary Discussion"],
+        "attending": ["Art Exhibition", "Tech Talk"]
+      }
+    },
+    {
+      "username": "max_123",
+      "about": "Hey, I'm Max. I'm a foodie and always up for trying new cuisines.",
+      "contact": "max123@example.com",
+      "squad": "Foodies",
+      "events": {
+        "created": ["Food Festival", "Cooking Class"],
+        "attending": ["Birthday Bash", "Art Exhibition"]
+      }
     }
   ]
 }
